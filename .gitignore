@@ -112,3 +112,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+*.jl
+*.html
+Documents/~$PakNSave.xlsx
