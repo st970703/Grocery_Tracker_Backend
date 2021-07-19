@@ -1,0 +1,13 @@
+You should run scrapy crawl spider_name command being in a scrapy project folder, where scrapy.cfg file resides.
+
+From the docs:
+
+Crawling
+
+To put our spider to work, go to the project’s top level directory and run:
+
+scrapy crawl dmoz
+
+
+
+scrapy crawl paknsave -o paknsave.jl
