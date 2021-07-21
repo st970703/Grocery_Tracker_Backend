@@ -7,15 +7,14 @@ class PakNSaveSpider(scrapy.Spider):
     name = "paknsave"
 
     base_urls = [
-        # temp. disabled
-        # "https://www.paknsaveonline.co.nz/category/fresh-foods-and-bakery?pg=",
-        # "https://www.paknsaveonline.co.nz/category/chilled-frozen-and-desserts?pg=",
-        # "https://www.paknsaveonline.co.nz/category/pantry?pg=",
-        # "https://www.paknsaveonline.co.nz/category/drinks?pg=",
-        # "https://www.paknsaveonline.co.nz/category/beer-cider-and-wine?pg=",
-        # "https://www.paknsaveonline.co.nz/category/personal-care?pg=",
-        # "https://www.paknsaveonline.co.nz/category/baby-toddler-and-kids?pg=",
-        # "https://www.paknsaveonline.co.nz/category/pets?pg=",
+        "https://www.paknsaveonline.co.nz/category/fresh-foods-and-bakery?pg=",
+        "https://www.paknsaveonline.co.nz/category/chilled-frozen-and-desserts?pg=",
+        "https://www.paknsaveonline.co.nz/category/pantry?pg=",
+        "https://www.paknsaveonline.co.nz/category/drinks?pg=",
+        "https://www.paknsaveonline.co.nz/category/beer-cider-and-wine?pg=",
+        "https://www.paknsaveonline.co.nz/category/personal-care?pg=",
+        "https://www.paknsaveonline.co.nz/category/baby-toddler-and-kids?pg=",
+        "https://www.paknsaveonline.co.nz/category/pets?pg=",
         "https://www.paknsaveonline.co.nz/category/kitchen-dining-and-household?pg=",
     ]
 
