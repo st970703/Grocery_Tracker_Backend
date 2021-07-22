@@ -15,9 +15,9 @@ class TutorialPipeline(object):
             27017
         )
 
-        db = self.conn['my_groceries']
-        self.collection = db['paknsave_tb']
+        self.db = self.conn['my_groceries']
+        # self.collection = self.db['paknsave_tb']
 
     def process_item(self, item, spider):
-        self.collection.insert(dict(item))
+        self.db[spider.name + '_tb'].insert(dict(item))
         return item
